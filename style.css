@@ -1,0 +1,372 @@
+html, body {
+    margin: 0; /* Supprime les marges par défaut du corps et de la page HTML */
+    padding: 0; /* Supprime les rembourrages par défaut du corps et de la page HTML */
+    height: 100%; /* Définit la hauteur de la page à 100% de la fenêtre */
+    background-color: #f0f0f0; /* Couleur de fond pour la page */
+}
+
+.container {
+    max-width: 800px; /* Définit la largeur maximale du conteneur */
+    margin: 0 auto; /* Centre le conteneur horizontalement */
+    padding: 20px; /* Ajoute un espacement intérieur au conteneur */
+    box-sizing: border-box; /* Inclut les bordures et le remplissage dans la largeur et la hauteur totales */
+    background-color: #fff; /* Couleur de fond pour le conteneur */
+    border-radius: 10px; /* Ajoute un rayon de bordure arrondi */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ajoute une ombre autour du conteneur */
+}
+
+a {
+    color: blue; /* Couleur du texte des liens */
+    text-decoration: none; /* Supprime la décoration de soulignement par défaut des liens */
+}
+
+a:hover {
+    text-decoration: underline; /* Ajoute un soulignement lorsque le lien est survolé */
+}
+
+.center {
+    text-align: center; /* Centre le texte */
+}
+
+
+.form {
+    text-align: center; /* Centre le texte dans le formulaire */
+}
+
+#titre {
+    text-align: center; /* Centre le texte de l'élément avec l'ID "titre" */
+}
+
+#content{
+    text-align: center; /* Centre le contenu de l'élément avec l'ID "content" */
+}
+
+.centered-image {
+    display: block; /* Affiche l'image comme un bloc */
+    margin: 0 auto; /* Centre l'image horizontalement */
+    user-select: none; /* Empêche la sélection du texte */
+    -webkit-user-select: none; /* Empêche la sélection du texte (pour Safari) */
+}
+.styled {
+    border: 0; /* Supprime la bordure */
+    line-height: 1.5; /* Définit la hauteur de ligne à 1.5 */
+    padding: 0 10px; /* Ajoute un remplissage à gauche et à droite */
+    font-size: 1rem; /* Taille de police */
+    text-align: center; /* Centre le texte */
+    color: #fff; /* Couleur du texte */
+    border-radius: 20px; /* Ajoute un rayon de bordure arrondi */
+    background-color: rgb(255, 213, 171); /* Couleur de fond */
+}
+
+.styled:hover {
+    background-color: rgb(215, 213, 215); /* Couleur de fond au survol */
+}
+
+.container-color{
+    background-color: rgb(179, 179, 179);/* Couleur de fond du conteneur */
+    
+}
+.backgroud1{
+   background-color: rgb(147, 168, 215);  /* Couleur de fond pour backgroud1 rgb(200, 161, 248) */
+      
+}  
+
+.button {
+    background: rgb(248, 238, 55); /* Couleur de fond du bouton */
+    border-radius: 999px; /* Ajoute un rayon de bordure arrondi */
+    box-shadow: #a7a7a7 0 10px 20px -10px; /* Ajoute une ombre au bouton */
+    box-sizing: border-box; /* Inclut les bordures et le remplissage dans la largeur et la hauteur totales */
+    cursor: pointer; /* Curseur de la souris */
+    font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif; /* Police de caractères */
+    font-size: 13px; /* Taille de police */
+    font-weight: 650; /* Poids de la police */
+    line-height: 18px; /* Hauteur de ligne */
+    opacity: 1; /* Opacité */
+    outline: 0 solid transparent; /* Supprime la bordure de sélection */
+    padding: 7px 16px; /* Ajoute un remplissage au bouton */
+    user-select: none; /* Empêche la sélection du texte */
+    -webkit-user-select: none; /* Empêche la sélection du texte (pour Safari) */
+    touch-action: manipulation; /* Action tactile */
+    width: fit-content; /* Largeur ajustée au contenu */
+    word-break: break-word; /* Coupe les mots longs */
+    border: 0; /* Supprime la bordure */
+}
+
+
+header {
+    display: flex; /* Affiche les éléments en ligne */
+    justify-content: space-between; /* Espace les éléments uniformément */
+    align-items: center; /* Centre les éléments verticalement */
+    background-color: #9b0000; /* Couleur de fond pour l'en-tête */
+    color: #fff; /* Couleur du texte */
+    padding: 2px ; /* Ajoute un espacement intérieur */
+}
+
+.nav-buttons {
+    display: flex; /* Affiche les éléments en ligne */
+}
+
+.image-container {
+    margin-right: 20px; /* Marge à droite pour le conteneur d'image */
+    user-select: none; /* Empêche la sélection du texte */
+    -webkit-user-select: none; /* Empêche la sélection du texte (pour Safari) */
+}
+#gif{
+    width : auto; /* Largeur de l'image */
+    height : 70px; /* Hauteur de l'image */
+    margin-right: -50px;
+    user-select: none; /* Empêche la sélection du texte */
+    -webkit-user-select: none; /* Empêche la sélection du texte (pour Safari) */
+}
+nav ul {
+    list-style: none; /* Supprime les puces de liste */
+    width: 100%; /* Largeur à 100% */
+    height: auto; /* Hauteur automatique */
+}
+
+nav ul li {
+    display: inline; /* Affiche les éléments de liste en ligne */
+    margin-right: 15px; /* Marge à droite entre les éléments de liste */
+}
+
+nav ul li a {
+    color: #252525; /* Couleur du texte des liens */
+    text-decoration: none; /* Supprime la décoration de soulignement par défaut des liens */
+}
+
+.image-container1 {
+    width : 760px; /* Largeur de l'image */
+    height : 350px; /* Hauteur de l'image */
+    text-align: center; /* Centre le texte */
+    user-select: none; /* Empêche la sélection du texte */
+    -webkit-user-select: none; /* Empêche la sélection du texte (pour Safari) */
+}
+
+.source {
+    text-align: left;
+}
+
+#time, #date {
+    color: rgb(0, 0, 0);
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    padding-bottom: 5px;
+}
+
+
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+
+.image_ea {
+    width : 750px; /* Largeur de l'image */
+    height : 350px; /* Hauteur de l'image */
+    text-align: center; /* Centre le texte */
+    padding-left: 5px;
+    user-select: none; /* Empêche la sélection du texte */
+    -webkit-user-select: none; /* Empêche la sélection du texte (pour Safari) */
+}
+
+#presentation{
+    text-align: center;
+    text-decoration-color: black;
+    text-size-adjust: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#ea2 { 
+    text-align: center;
+    width : 760px; /* Largeur de l'image */
+    height : 350px; /* Hauteur de l'image */
+}
+
+#ea3{ 
+    text-align: center;
+}
+
+.videos_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Ajuste l'espacement horizontal entre les vidéos */
+}
+
+.container_video {
+    width: calc(33.33% - 14px); /* Calcul pour que trois vidéos tiennent sur une ligne */
+    position: relative;
+    margin: 7px;
+    cursor: pointer;
+}
+
+.container_video video {
+    width: 200px;
+    height: auto;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 0px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-size: 13px;
+}
+
+.container_video:hover .text {
+    opacity: 1;
+}
+
+.Miniature {
+    width: 100%;
+    margin: 7px;
+}
+.Miniatureph{
+    margin: 7px;
+    width : 200px; /* Largeur de l'image */
+    height : 355px; /* Hauteur de l'image */
+}
+
+#video1 {
+    margin-left: 200px;
+    text-align: center;
+    width : 350px; 
+}
+
+#video2 {
+    text-align: center;
+    width : 760px; 
+}
+
+#video3 {
+    margin-left: 200px;
+    text-align: center;
+    width : 350px; 
+}
+
+#video4 {
+    margin-left: 200px;
+    text-align: center;
+    width : 350px; 
+}
+#video5 {
+    margin-left: 200px;
+    text-align: center;
+    width : 350px; 
+}
+#video6 {
+    margin-left: 200px;
+    text-align: center;
+    width : 350px; 
+}
+#video7 {
+    margin-left: 200px;
+    text-align: center;
+    width : 350px; 
+}
+#video8 {
+    margin-left: 200px;
+    text-align: center;
+    width : 350px; 
+}
+.prenonvid{
+    text-align: center;
+}
+
+.photos_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Ajuste l'espacement horizontal entre les photos */
+}
+
+.container_photo {
+    width: 75%; 
+    height: 75%;
+    position: relative;
+    margin: 7px;
+    cursor: pointer;
+}
+
+.container_photo img {
+    width: 100%;
+    height: auto;
+}
+
+.text_photo {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 0px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-size: 13px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container_photo:hover .text_photo {
+    opacity: 1;
+}
+
+.Miniature {
+    width: 100%;
+    margin: 7px;
+}
+#cliquez{
+    font-size: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+  
+.containerlog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+}
+  
+.form-container {
+    width: 400px;
+    text-align: center;
+}
+  
+h2 {
+    margin-top: 0;
+}
+  
+.input-group {
+    margin-bottom: 10px;
+}
+  
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+  
+  .input-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .buttonlog {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .buttonlog:hover {
+    background-color: #45a049;
+  }
+  
